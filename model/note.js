@@ -16,6 +16,9 @@ const Schema = new mongoose.Schema(
     color: {
       type: String,
     },
+    important:{
+      type:Boolean
+    },
     created:{
       type:String
     }

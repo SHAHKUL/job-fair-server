@@ -48,7 +48,7 @@ Userrouter.post("/login", async (req, res) => {
           );
          
   
-          res.json({ token: sign});
+          res.json({ token: sign,});
         } else {
           res.json({ message: "the password is not matched" });
         }
