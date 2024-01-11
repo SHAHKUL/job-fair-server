@@ -16,12 +16,12 @@ const Schema = new mongoose.Schema(
     color: {
       type: String,
     },
-    important:{
-      type:Boolean
+    important: {
+      type: Boolean,
     },
-    created:{
-      type:String
-    }
+    created: {
+      type: String,
+    },
   },
   {
     timestamps: true,
